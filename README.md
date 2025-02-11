@@ -51,7 +51,6 @@ Ensure you have the following dependencies installed:
 
 Clone the repository and build the project:
 
-```bash
 git clone https://github.com/username/MazeBomber.git
 cd MazeBomber
 mkdir build && cd build
@@ -61,15 +60,11 @@ make
 
 ## 🎯 Controls
 
-**Player 1 Controls:**  
-- Move: W, A, S, D  
-- Place Bomb: E  
-- Place Trap: Q  
-
-**Player 2 Controls:**  
-- Move: Arrow Keys (⬆️⬅️⬇️➡️)  
-- Place Bomb: Numpad 0  
-- Place Trap: Numpad 3  
+| **Player 1**       | **Player 2**       |
+|--------------------|--------------------|
+| **W, A, S, D** - Move | **⬆️⬅️⬇️➡️** - Move |
+| **E** - Place bomb  | **Numpad 0** - Place bomb |
+| **Q** - Place trap  | **Numpad 3** - Place trap |
 
 ## 🔮 Future Developments
 
