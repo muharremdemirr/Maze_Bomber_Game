@@ -61,11 +61,15 @@ make
 
 ## 🎯 Controls
 
-| **Player 1**       | **Player 2**       |
-|--------------------|--------------------|
-| **W, A, S, D** - Move | **⬆️⬅️⬇️➡️** - Move |
-| **E** - Place bomb  | **Numpad 0** - Place bomb |
-| **Q** - Place trap  | **Numpad 3** - Place trap |
+**Player 1 Controls:**  
+- Move: W, A, S, D  
+- Place Bomb: E  
+- Place Trap: Q  
+
+**Player 2 Controls:**  
+- Move: Arrow Keys (⬆️⬅️⬇️➡️)  
+- Place Bomb: Numpad 0  
+- Place Trap: Numpad 3  
 
 ## 🔮 Future Developments
 
