@@ -1,93 +1,75 @@
-Maze Bomber
+# Maze Bomber
 
-Maze Bomber is a strategic game inspired by Bomberman, featuring advanced AI bots, dynamic map generation, and multiplayer capabilities. The objective of the game is for players to strategically outmaneuver their opponents and be the last one standing.
+Maze Bomber is a Bomberman-inspired strategic game featuring AI-driven opponents, dynamic maps, and multiplayer functionality. Players strategically place bombs to eliminate their opponents and be the last survivor. The game includes advanced AI bots, trap mechanisms, and power-ups.
 
-Features
+## 🚀 Project Features
 
-Single-Player and Multiplayer Modes: Play against AI bots or compete with friends.
+- **Single and Multiplayer Modes**  
+  - Playable against AI-controlled bots.  
+  - Supports local multiplayer.  
+  - Online multiplayer mode (using ENet) planned for future versions.  
 
-Dynamic Map Generation: Each game starts with a different maze layout.
+- **Advanced AI System**  
+  - AI bots utilize escape, attack, and resource collection strategies.  
+  - Implements A* pathfinding for optimal movement.  
 
-Advanced AI: AI bots have escape strategies, attack predictions, and resource collection abilities.
+- **Dynamic Map Structure**  
+  - 15x15 grid-based game map.  
+  - Destructible and indestructible walls for strategic gameplay.  
+  - Power-ups and traps randomly distributed across the map.  
 
-Power-Up System: Includes speed boost, bomb range extension, extra bombs, and shields.
+- **Real-Time Game Mechanics**  
+  - Bomb placement and explosion effects.  
+  - Trap mechanisms and power-up system.  
+  - Real-time collision detection and movement handling.  
 
-Real-Time Explosion Mechanism: Players must strategically place bombs and calculate explosions.
+- **Visual and Audio Design**  
+  - Custom-designed menu and in-game interface.  
+  - FMOD integration for enhanced sound effects (future update).  
 
-FMOD Integration: FMOD sound engine is used for sound effects and music.
+## 🛠 Technologies Used
 
-ENet Implementation (Coming Soon!): Online multiplayer support will be added.
+- **Programming Language:** C++  
+- **Graphics Library:** I-See-Bytes (ICBYTES)  
+- **AI Algorithm:** A* Pathfinding  
+- **Multithreading:** Windows Threads API  
+- **Timing and Synchronization:** Chrono Library  
+- **Online Multiplayer:** ENet (Planned Feature)  
+- **Audio Engine:** FMOD (Planned Feature)  
 
-Technologies
+## 🎮 How to Run?
 
-Language: C++
+### 1️⃣ Requirements
 
-Graphics Library: I-See-Bytes (ICBYTES)
+Ensure you have the following dependencies installed:
 
-Sound Engine: FMOD
+- **C++ compiler (GCC, MSVC, Clang)**  
+- **ICBYTES Graphics Library**  
+- **CMake (optional)**  
 
-Pathfinding Algorithm: A* Algorithm
+### 2️⃣ Build and Run
 
-Network Connection (Future Update): ENet
+Clone the repository and build the project:
 
-Installation
-
-Clone the repository:
-
-git clone https://github.com/kullanici/MazeBomber.git
+```bash
+git clone https://github.com/username/MazeBomber.git
 cd MazeBomber
-
-Install dependencies:
-
-Download the FMOD SDK and place it in the fmod/ directory.
-
-Install the Boost library.
-
-Compile and run the project:
-
 mkdir build && cd build
 cmake ..
 make
 ./MazeBomber
+## 🎯 Controls
 
-Gameplay
+| **Player 1** | **Player 2** |
+|--------------|--------------|
+| **W, A, S, D** - Move | **⬆️⬅️⬇️➡️** - Move |
+| **E** - Place bomb | **Numpad 0** - Place bomb |
+| **Q** - Place trap | **Numpad 3** - Place trap |
 
-Controls
+## 🔮 Future Developments
 
-Player 1
-
-Player 2
-
-Movement: W, A, S, D
-
-Movement: Arrow Keys
-
-Place Bomb: E
-
-Place Bomb: Numpad 0
-
-Set Trap: Q
-
-Set Trap: Numpad 3
-
-Future Plans
-
-Online Multiplayer: Play matches with remote players using ENet.
-
-Voice Chat: In-game voice communication for team strategies.
-
-Advanced AI with Machine Learning: Bots will analyze and adapt their gameplay styles.
-
-Improved Graphics and Animations: Smoother character movements and explosion effects.
-
-Cross-Platform Support: Optimizing the game for Windows, Linux, and MacOS.
-
-Contributing
-
-To contribute, please open a pull request or share your ideas by creating an issue.
-
-License
-
-This project is licensed under the MIT License. For more details, see the LICENSE file.
-
-Enjoy the fun and strategic gaming experience with Maze Bomber! 🎮🔥
+- 🌍 **Online Multiplayer:** Online matchmaking using ENet.
+- 🎙 **Voice Communication:** Real-time player interaction via voice chat.
+- 🎨 **Improved Graphics:** Better animations, explosion effects, and character movements.
+- 📱 **Cross-Platform Support:** Compatibility for PC, Mac, and Linux.
+- 🤖 **Smarter AI:** Machine learning-powered bots for better decision-making.
