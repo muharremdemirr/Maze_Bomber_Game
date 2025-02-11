@@ -58,18 +58,19 @@ mkdir build && cd build
 cmake ..
 make
 ./MazeBomber
+
 ## 🎯 Controls
 
-| **Player 1** | **Player 2** |
-|--------------|--------------|
+| **Player 1**       | **Player 2**       |
+|--------------------|--------------------|
 | **W, A, S, D** - Move | **⬆️⬅️⬇️➡️** - Move |
-| **E** - Place bomb | **Numpad 0** - Place bomb |
-| **Q** - Place trap | **Numpad 3** - Place trap |
+| **E** - Place bomb  | **Numpad 0** - Place bomb |
+| **Q** - Place trap  | **Numpad 3** - Place trap |
 
 ## 🔮 Future Developments
 
-- 🌍 **Online Multiplayer:** Online matchmaking using ENet.
-- 🎙 **Voice Communication:** Real-time player interaction via voice chat.
-- 🎨 **Improved Graphics:** Better animations, explosion effects, and character movements.
-- 📱 **Cross-Platform Support:** Compatibility for PC, Mac, and Linux.
-- 🤖 **Smarter AI:** Machine learning-powered bots for better decision-making.
+- 🌍 **Online Multiplayer:** Online matchmaking using ENet.  
+- 🎙 **Voice Communication:** Real-time player interaction via voice chat.  
+- 🎨 **Improved Graphics:** Better animations, explosion effects, and character movements.  
+- 📱 **Cross-Platform Support:** Compatibility for PC, Mac, and Linux.  
+- 🤖 **Smarter AI:** Machine learning-powered bots for better decision-making.  
